@@ -1,0 +1,69 @@
+*{margin: unset;padding: unset;}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.div1{
+    display: flex;
+    padding: 30px;
+    width:100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    width:100%;
+    height: 3px;
+    background-color:skyblue ;
+    margin-bottom: 15px;
+}
+
+.div3{
+   border: 1px solid #dedede; 
+   padding: 10px;
+   margin-right:50px;
+}
+.table1{
+    border: 1px solid  #dedede;
+}
+
+th, td{
+    width: 100px;
+    border: 1px;
+    padding:10px
+}
+
+td {
+    text-align: center;
+}
+.div4{
+    display: flex;flex-direction: column;
+    padding: 20px;
+    border: 1px solid #dedede;
+}
+h1{
+    margin-bottom:15px;
+}
+input,select{
+    border: 1px solid #717171;
+    border-radius: 8px;
+    padding: 5px 15px;
+    width:150px;
+}
+ span > label {
+    display: inline-block;
+    width:80px;
+}
+span{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: skyblue;
+    color:black;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 8px;
+    border:unset;
+}
+
